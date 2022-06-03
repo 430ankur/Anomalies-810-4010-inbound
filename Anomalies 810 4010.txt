@@ -1,0 +1,19 @@
+
+
+
+//not required
+<ns4:BusinessObjectName>
+            <xsl:value-of select="concat($gvarOutput_CMRS_GBL_Dashboard_GetSeqNo.OutputMessage/imp1:OutputMessage/imp1:DataArea/imp1:MasterSequence/imp1:SequenceNumber,'/',$gvarOutput_CMRS_GBL_Dashboard_GetSeqNo.OutputMessage/imp1:OutputMessage/imp1:DataArea/imp1:TransactionSequence/imp1:SequenceNumber)"/>
+          </ns4:BusinessObjectName>
+
+
+//not required
+<ns6:HeaderSeqNo>
+            <xsl:value-of select="$gvarOutput_CMRS_GBL_Dashboard_GetSeqNo.OutputMessage/imp1:OutputMessage/imp1:DataArea/imp1:MasterSequence/imp1:SequenceNumber"/>
+          </ns6:HeaderSeqNo>
+
+ 
+
+
+
+
